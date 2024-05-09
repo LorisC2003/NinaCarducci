@@ -159,9 +159,7 @@
       if(prevIndex < 0) {
         prevIndex = $(".item-column").length;
       }
-      next =
-          imagesCollection[prevIndex] ||
-          imagesCollection[imagesCollection.length - 1];
+      next = imagesCollection[prevIndex] || imagesCollection[imagesCollection.length - 1];
       $(".lightboxImage").attr("src", $(next).attr("src"));
     },
 
