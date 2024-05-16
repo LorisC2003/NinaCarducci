@@ -108,6 +108,7 @@ body {
 
 
 .nav-pills .nav-link {
+	cursor: pointer;
 	color: #000
 }
 .item-column {
